@@ -1,0 +1,36 @@
+@mixin sides {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin: 0 20px;
+}
+
+.construction-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #231e23;
+    color: white;
+    overflow-x: auto;
+
+    .sub-section {
+        @include sides;
+
+        .desc {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+
+            :first-child {
+                margin-right: 10px;
+            }
+
+            :last-child {
+                text-align: right;
+            }
+        }
+    }
+}

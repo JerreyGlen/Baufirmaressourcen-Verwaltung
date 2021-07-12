@@ -1,0 +1,105 @@
+@mixin itemInItemDiv {
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+}
+
+@mixin itemInDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  min-height: calc(100vh - 450px);
+  width: 100%;
+
+  .date-week {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h3 {
+      text-align: center;
+    }
+
+    .persons {
+      overflow-y: auto;
+      height: 325px;
+
+      .personDiv {
+        @include itemInDate;
+
+        .person {
+          background-color: #9df3c4;
+          @include itemInItemDiv;
+        }
+      }
+    }
+
+    .maschinen {
+      overflow-y: auto;
+      height: 150px;
+
+      .maschineDiv {
+        @include itemInDate;
+        margin-bottom: 5px;
+
+        .maschine {
+          @include itemInItemDiv;
+          background-color: #343a40;
+          color: white;
+        }
+      }
+    }
+
+    .fa-user-plus {
+      margin: 10px 0 20px 0;
+    }
+
+    .fa-cogs {
+      margin: 10px 0 20px 0;
+    }
+  }
+
+  .fas {
+    cursor: pointer;
+
+    &.prs {
+      color: #62d2a2;
+    }
+
+    &.msc {
+      color: #343a40;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .date-week {
+      .persons {
+        height: 250px;
+
+        .personDiv {
+          width: auto;
+        }
+      }
+
+      .maschinen {
+        height: 100px;
+
+        .maschineDiv {
+          width: auto;
+        }
+      }
+    }
+  }
+}

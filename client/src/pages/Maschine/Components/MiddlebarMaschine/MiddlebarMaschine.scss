@@ -1,0 +1,177 @@
+
+.MiddlebarMaschine1a
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.MiddlebarMaschine1c:hover
+{
+    box-shadow: 2px 2px 1px 1px #62D2A2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.MiddlebarMaschine1
+{
+    display: flex;
+}
+.MiddlebarMaschine2
+{
+    background-color:#62D2A2 ;
+    border: 2px solid black;
+    min-height: 700px;
+
+
+   
+}
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: .5s;
+    width: 220px;
+    height: 30px;
+
+}
+.MiddlebarMaschine2a input[type="text"]
+{
+   font-family: Trebuchet MS;
+   border-radius: 2px;
+}
+.MiddlebarMaschine2a input[type="submit"]
+{
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+}
+input[type="submit"]:active
+{
+   border: 2px solid black;
+}
+.MiddlebarMaschine2a
+{
+   margin-left: 400px;
+   padding-top: 10px;
+   margin-right: 37px;
+}
+.MiddlebarMaschine2b table,th,td
+{
+    border-collapse: collapse;
+    border: 1.4px solid black;
+    text-align: left; 
+    background-color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.MiddlebarMaschine2b table
+{
+    margin-right: 17px;
+    
+}
+
+.MiddlebarMaschine2b
+{
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.MiddlebarMaschine2b th
+{
+    background-color: #AAAAAA;
+    padding-top: 20px;
+}
+.MiddlebarMaschine4
+{
+   display: flex;
+   
+}
+.MiddlebarMaschine3
+{
+    background-color: #AAAAAA;
+    width: 228px;
+    margin-left: 730px;
+    margin-top: 55px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    max-height: 200px;
+    position: fixed;
+}
+.MiddlebarMaschine3a
+{
+    margin-left: 15px;
+
+}
+.MiddlebarMaschine3a input
+{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+}
+.MiddlebarMaschine3b
+{
+    margin-top: 70px;
+    font-family: Trebuchet MS;
+}
+.MiddlebarMaschine3b input
+{
+    margin-bottom: 5px;
+    background-color: #AAAAAA;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.MiddlebarMaschine3b input:hover
+{
+    background-color: #BBBBBB;
+}
+
+.MiddlebarMaschine3 select
+{
+    width: 180px;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.MiddlebarMaschine3a p
+{
+   margin-top: 0px;
+   margin-bottom: 2px;
+}
+.actionsMaschine
+{ 
+  margin-top: 5px;
+
+}
+.actionsMaschine button
+{
+    width: 50px;
+    height: 30px;
+    background-color: #9df3c4;
+    font-size: 13px;
+}
+.actionsMaschine button:hover
+{
+    background-color:#62D2A2;
+}
+.actionsMaschine1
+{
+   width: 20px;
+}
+.MiddlebarMaschine3a input:hover
+{
+    background-color: #9df3c4;
+}

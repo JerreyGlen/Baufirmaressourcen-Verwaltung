@@ -1,0 +1,15 @@
+.einplanung-page {
+  display: flex;
+
+  .einplanung-section {
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  @media (max-width: 1300px) {
+    width: calc(100vw - 50px);
+  }
+}

@@ -1,0 +1,93 @@
+@import "../root.styles";
+
+.login-page {
+  @include cover;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+
+  @keyframes flash {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .message {
+    text-align: center;
+    background-color: #d7fbe8;
+    color: #1fab89;
+    margin: 0;
+  }
+
+  .login-box {
+    width: 400px;
+    border: 1px solid #393e46;
+    background-color: #9df3c4;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+
+    h1 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .login {
+      animation-name: slide-right;
+      animation-iteration-count: 1;
+      animation-duration: 1s;
+
+      @keyframes slide-right {
+        0% {
+          margin-left: 1000px;
+        }
+        100% {
+          margin-left: 0;
+        }
+      }
+
+      .select-role {
+        outline: none;
+        background: none;
+        padding: 10px;
+        width: 80%;
+        font-size: 18px;
+        border: solid 2px #1fab89;
+      }
+    }
+
+    .login-btn {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .login-box {
+      width: 300px;
+    }
+  }
+}

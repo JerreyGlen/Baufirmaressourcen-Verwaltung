@@ -1,0 +1,173 @@
+.Middlebar1a
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.Middlebar1c:hover
+{
+    box-shadow: 2px 2px 1px 1px #62D2A2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.Middlebar1
+{
+    display: flex;
+}
+.Middlebar2
+{
+    background-color:#62D2A2 ;
+    border: 2px solid black;
+    min-height: 700px;
+
+
+   
+}
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: .5s;
+    width: 220px;
+    height: 30px;
+
+}
+.Middlebar2a input[type="text"]
+{
+   font-family: Trebuchet MS;
+   border-radius: 2px;
+}
+.Middlebar2a input[type="submit"]
+{
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input[type="submit"]:active
+{
+   border: 2px solid black;
+}
+.Middlebar2a
+{
+   margin-left: 415px;
+   padding-top: 10px;
+   margin-right: 37px;
+}
+.Middlebar2b table,th,td
+{
+    border-collapse: collapse;
+    border: 1.4px solid black;
+    text-align: left; 
+    background-color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.Middlebar2b table
+{
+    margin-right: 17px;
+}
+
+.Middlebar2b
+{
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Middlebar2b th
+{
+    background-color: #AAAAAA;
+    padding-top: 20px;
+}
+.Middlebar4
+{
+    display: flex;
+}
+.Middlebar3
+{
+    background-color: #AAAAAA;
+    width: 228px;
+    margin-left: 30px;
+    margin-top: 55px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    
+}
+.Middlebar3a
+{
+    margin-left: 15px;
+
+}
+.Middlebar3a input
+{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+}
+.Middlebar3b
+{
+    margin-top: 70px;
+    font-family: Trebuchet MS;
+}
+.Middlebar3b input
+{
+    margin-bottom: 5px;
+    background-color: #AAAAAA;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Middlebar3b input:hover
+{
+    background-color: #BBBBBB;
+}
+.Middlebar3 select
+{
+    width: 180px;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: -10px;
+   
+}
+.Middlebar3a p
+{
+   margin-top: 0px;
+   margin-bottom: 2px;
+}
+.actions
+{ 
+  margin-top: 5px;
+
+}
+.actions button
+{
+    background-color: #9df3c4;
+    font-size: 13px;
+}
+.actions button:hover
+{
+    background-color:#62D2A2;
+}
+
+.actions1
+{
+   width: 20px;
+}
+.Middlebar3a input:hover
+{
+    background-color: #9df3c4;
+}
+

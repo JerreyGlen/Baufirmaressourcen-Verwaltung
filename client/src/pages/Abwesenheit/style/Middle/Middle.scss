@@ -1,0 +1,317 @@
+.Midle
+{
+    margin-top: 40px;
+}
+.Person
+{
+    background-color: black;
+    color: white;
+}
+.Midle1a
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.Midle1c:hover
+{
+    box-shadow: 2px 2px 1px 1px #62D2A2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+//haz
+.Midle1
+{
+    display: flex;
+
+}
+.Midle2
+{
+    background-color:#62D2A2 ;
+    border: 2px solid black;
+    //height: 480px;
+    
+    height: fit-content;
+    max-height: 780px;
+    width: 400px;
+    margin-left: 310px; 
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    //flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Midle2AB
+{
+    //background-color:#AAAAAA ;
+    //border: 2px solid black;
+    min-height: 480px;
+    min-width: 00px;
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: .5s;
+    width: 220px;
+    height: 30px;
+
+}
+.Midle2AB input[type="text"]
+{
+   font-family: Trebuchet MS;
+}
+.Midle2AB input[type="submit"]
+{
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input[type="submit"]:active
+{
+   border: 2px solid black;
+}
+.Midle2a
+{
+   margin-left: 50%;
+   padding-top: 10px;
+   margin-right: 37px;
+}
+.list table, td
+{
+    border-collapse: collapse;
+    border: 0.5px solid black;
+    text-align: left; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.list th
+{
+    background-color: #AAAAAA;
+}
+.list table
+{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.id
+{
+    background-color: #252525;
+    color: aliceblue;
+}
+
+.Midle2b
+{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    height: fit-content;
+}
+.Midle2bb
+{
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Midle2b th
+{
+    background-color: #AAAAAA;
+    //padding-top: 20px;
+}
+.Midle4
+{
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+.Midle3
+{
+    background-color: #AAAAAA;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 750px; 
+    position: fixed;
+    height: 290px;
+    max-height: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+}
+.Midle3a
+{
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Midle3a input
+{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+.Midle3b
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Trebuchet MS;
+}
+.Midle3b input
+{
+    margin-bottom: 5px;
+    background-color: #AAAAAA;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Midle3b input:hover
+{
+    background-color: #BBBBBB;
+}
+.Midle3 select
+{
+    width: 180px;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.Midle3a p
+{
+   margin-top: 0px;
+   margin-bottom: 2px;
+}
+.actions
+{ 
+  margin-top: 5px;
+
+}
+.actions button
+{
+    width: 50px;
+    height: 30px;
+    background-color: #9df3c4;
+    font-size: 13px;
+}
+.actions button:hover
+{
+    background-color:#62D2A2;
+}
+.actions1
+{
+   width: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-left: 2%;
+    margin-top: 0%;
+    padding: 10px 10px 10px 10px;
+    flex: 1;
+    
+    align-items: center;
+    
+    justify-content: center;
+  }
+.personName
+{
+    font-size: calc(10px + 2vmin);
+    min-width: 20px;
+    min-height: 20px;
+    margin: 5px 5px 5px 5px;
+    color: rgb(23, 59, 34);
+}
+.personDiv
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 5px;
+}
+.personLoe
+{
+    display: flex;
+    color: white;
+    
+    background-color: black;
+    
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    flex: 2;
+  }/**/
+.personRow
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+/*.Rose
+{
+    display: flex;
+    flex-direction: row;
+
+}*/
+.Actionstd
+{
+    background-color: unset;
+    border-collapse: collapse;
+    
+}
+.Actions
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.namefall
+{
+    
+    max-width: 150px;
+    min-width: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.namefall:hover
+{
+    background-color: #9df3c4;
+}
